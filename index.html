@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="oyedola oluwasegun olamide, oyedolacode, OyedolaDevs" />
+    <meta name="description" content="The Portfolio Site of Oyedolacode" />
+    <meta name="keywords" content="Portfolio, HTML5, CSS3, JavaScript, Web Development, JS, PHP, React, Website Design, FrontEnd, UI design, UX design" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+    <title>Oyedola's World</title>
+    <link rel="stylesheet" href="css/vars.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/header.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/home.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/about.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/skills.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/crafts.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/blog.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/contact.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/star.css" type="text/css" media="all" />
+    <style type="text/css" media="all">
+    
+
+        /*
+            Space for testing later.
+        */
+
+
+    </style>
+    <!--Animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+    <header class="header header-shade">
+        <div class="container header-content">
+            <img class="logo animate__animated animate__bounce animate__infinite" src="./img/logoo.png">
+            <ul class="nav">
+                <li class="nav_link animate__animated animate__bounce animate__repeat-1"><a href="#" class="link">Home</a></li>
+                <li class="nav_link animate__animated animate__bounce animate__repeat-2"><a href="#about" class="link">About</a></li>
+                <li class="nav_link animate__animated animate__bounce animate__repeat-3"><a href="#skills" class="link">Skills</a></li>
+                <li class="nav_link animate__animated animate__bounce animate__repeat-1"><a href="#crafts" class="link">Projects</a></li>
+                <li class="nav_link animate__animated animate__bounce animate__repeat-2"><a href="#blogs" class="link">Blogs</a></li>
+                <li class="nav_link animate__animated animate__bounce animate__repeat-3"><a href="#contact" class="link">Contact</a></li>
+            </ul>
+            <button class="mode-toggler">
+                <!-- 🛡 -->️
+                <span class="sr-only">toggle mode</span>
+            </button>
+            <button class="nav-toggler">
+                <span class="box box1"></span>
+                <span class="box box2"></span>
+                <span class="sr-only">Toggle Navigation Menu</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section id="home">
+            <div class="container home">
+                <span class="greeting">Hi there 👋</span>
+                <h1 class="home-title">I'm
+                    <span class="name">Oyedola</span>
+                </h1>
+                <h4>A front-end developer && UI/UX Designer</h4>
+            </div>
+            <div class="home__img">    
+                <img src="img/image1-removebg-preview(1).png" alt="">
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-header">
+                <h1 class="section-header-title">About</h1>
+            </div>
+            <div class="container about">
+                <div class="about-info">
+                    <p>
+                        Holla, i'm Oyedola Oluwasegun, a Front End Developer && UI/UX designer based in Lagos,Nigeria. I'm passionate about technology and constant learning.
+                    </p>
+                    <p>
+                        I enjoy helping people improve the way they work using web applications,responsive website and design.
+                    </p>
+                    <p>
+                        My journey first started with HTML and CSS in January, 2020. Then i met javascript by March at an internship <a href="https://www.100daysofcode.com/">HNG7</a> that halted my Dev journey when I discovered JavaScript was too hard, certainly because there was no adequate guidance.
+                    </p>
+                    <p>
+                        In June 1, i found <a href="https://www.100daysofcode.com/">#100DaysOfCode</a> hashtag and <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>, where i consistently put my time, never gave up this time. Since then I built 10 websites, 10 vanilla JavaScript projects, and earned 8 KYU Badge on <a href="https://codewars.com/users/Oyedola">
+                            CodeWars
+                        </a>
+                    </p>
+                    <p>
+                        In August 10, 2020, I met with another amazing love of my life called figma <a href="https://www.figma.com/">#figma</a> , ever since i have not looked back to the design World again with the help of the figma community.
+                    </p>
+                    <p>
+                        Now I'm more goal oriented, focused and hungry than ever before. I'm currently learning React.js, PHP, django, Photoshop and i'm going to build more projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-header">
+                <h1 class="section-header-title">Skills</h1>
+            </div>
+            <div class="container skills">
+                <div class="skills-box">
+                    <img src="icons/html.svg" alt="HTML5" title="HTML5" class="skill-img">
+                    <p class="skill-name">
+                        HTML5
+                    </p>
+                </div>
+                <div class="skills-box">
+                    <img src="icons/css.svg" alt="CSS3" title="CSS3" class="skill-img">
+                    <p class="skill-name">
+                        CSS3
+                    </p>
+                </div>
+                <div class="skills-box">
+                    <img src="icons/bootstrap.svg" alt="Bootstrap" title="Bootstrap" class="skill-img">
+                    <p class="skill-name">
+                        Bootstrap
+                    </p>
+                </div>
+                <div class="skills-box">
+                    <img src="icons/sass.svg" alt="SASS" title="SASS" class="skill-img">
+                    <p class="skill-name">
+                        SASS
+                    </p>
+                </div>
+                <div class="skills-box">
+                    <img src="icons/js.svg" alt="JavaScript" title="JavaScript" class="skill-img">
+                    <p class="skill-name">
+                        JavaScript
+                    </p>
+                </div>
+                <div class="skills-box" style="display:none;">
+                    <img src="icons/react.svg" alt="Reactjs" title="Reactjs" class="skill-img">
+                    <p class="skill-name">
+                        Reactjs
+                    </p>
+                </div>
+                <div class="skills-box">
+                    <img src="icons/git.svg" alt="Git" title="Git" class="skill-img">
+                    <p class="skill-name">
+                        Git
+                    </p>
+                </div>
+                <div class="skills-box">
+                    <img src="icons/npm.svg" alt="npm" title="npm" class="skill-img">
+                    <p class="skill-name">
+                        npm
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="crafts" class="section">
+            <div class="section-header">
+                <h1 class="section-header-title">Projects</h1>
+            </div>
+            <div class="container crafts">
+                <div class="crafts-btn">
+                    <button class="btnCraft btnCraft-active" data-tag="all">All</button>
+                    <button class="btnCraft" data-tag="css">CSS</button>
+                    <button class="btnCraft" data-tag="js">JavaScript</button>
+                    <button class="btnCraft" data-tag="react">React</button>
+                </div>
+
+                <!-- project Content start -->
+                <div class="craft__content">
+                    <div class="craft" data-tag="css">
+                        <div class="card">
+                            <img class="card__img" src="img/Frontend_Mentor_Four_card_feature_section.png" alt="Alvi" />
+                            <div class="card__desc">
+                                <h3 class="card__desc--title">
+                                    Card
+                                </h3>
+                                <div class="card__desc-prev">
+                                    <a href="https://github.com/Oyedolacode/Four-card-feature-section">️💻 Code</a>
+                                    <a href="https://eloquent-liskov-4ace9e.netlify.app">👁️ Live </a>
+                                </div>
+                                <div class="card__desc--info">
+                                    <p>
+                                        Frontend_Mentor_Four_card_feature_section
+                                    </p>
+                                </div>
+
+                                <div class="card__desc--tags">
+                                    <span>HTML & CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /end -->
+
+                    <div class="craft" data-tag="js">
+                        <div class="card">
+                            <img class="card__img" src="img/Frontend_Mentor_Insure_landing_page.png" alt="Furnit" />
+                            <div class="card__desc">
+                                <h3 class="card__desc--title">
+                                    Insure
+                                </h3>
+                                <div class="card__desc-prev">
+                                    <a href="https://github.com/TutulDevs/All-JavaScript/tree/master/43-Furnit">️💻 Code</a>
+                                    <a href="http://insure-landing-page.oyedolacode.vercel.app">👁️ Live </a>
+                                </div>
+                                <div class="card__desc--info">
+                                    <p>
+                                        Frontend_Mentor_Insure_landing_page
+                                    </p>
+                                </div>
+
+                                <div class="card__desc--tags">
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /end -->
+
+                    <div class="craft" data-tag="css">
+                        <div class="card">
+                            <img class="card__img" src="img/Frontend_Mentor_Easybank_landing_page.png" alt="Holiday" />
+                            <div class="card__desc">
+                                <h3 class="card__desc--title">
+                                    landing_page
+                                </h3>
+                                <div class="card__desc-prev">
+                                    <a href="https://github.com/Oyedolacode/Easybank-landing-page">️💻 Code</a>
+                                    <a href="http://easybank-landing-page-git-main.oyedolacode.vercel.app">👁️ Live </a>
+                                </div>
+                                <div class="card__desc--info">
+                                    <p>
+                                        Frontend_Mentor_Easybank_landing_page
+                                    </p>
+                                </div>
+
+                                <div class="card__desc--tags">
+                                    <span>HTML & CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /end -->
+
+                    <div class="craft" data-tag="css">
+                        <div class="card">
+                            <img class="card__img" src="img/figma.png" alt="Portfolio" />
+                            <div class="card__desc">
+                                <h3 class="card__desc--title">
+                                    App design
+                                </h3>
+                                <div class="card__desc-prev">
+                                    <a href="https://dribbble.com/shots/14151999-TODO-APP">👁️ Live </a>
+                                </div>
+                                <div class="card__desc--info">
+                                    <p>
+                                        TODO-APP made with figma
+                                    </p>
+                                </div>
+
+                                <div class="card__desc--tags">
+                                    <span>Figma & Photoshop</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /end -->
+
+                    <div class="craft" data-tag="js">
+                        <div class="card">
+                            <img class="card__img" src="img/mockup.png" alt="Budget App" />
+                            <div class="card__desc">
+                                <h3 class="card__desc--title">
+                                     App Design
+                                </h3>
+                                <div class="card__desc-prev">
+                                    <a href="https://dribbble.com/shots/14597878-mockup">👁️ Live </a>
+                                </div>
+                                <div class="card__desc--info">
+                                    <p>
+                                        A Food ordering App
+                                    </p>
+                                </div>
+
+                                <div class="card__desc--tags">
+                                    <span>Figma & Photoshop</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /end -->
+
+                    <div class="craft" data-tag="css">
+                        <div class="card">
+                            <img class="card__img" src="img/Screenshot_2021-01-02 Recipes App.png" alt="The-recipe-app" />
+                            <div class="card__desc">
+                                <h3 class="card__desc--title">
+                                    The The-recipe-app
+                                </h3>
+                                <div class="card__desc-prev">
+                                    <a href="https://github.com/Oyedolacode/Recipe-app">️💻 Code</a>
+                                    <a href="https://the-recipe-app.netlify.app">👁️ Live </a>
+                                </div>
+                                <div class="card__desc--info">
+                                    <p>
+                                        A Recipe-app.
+                                    </p>
+                                </div>
+
+                                <div class="card__desc--tags">
+                                    <span>HTML & CSS & javascript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /end -->
+
+                    <div class="craft" data-tag="css">
+                        <div class="card">
+                            <img class="card__img" src="img/Frontend_Mentor_Single_Price_Grid_Component.png" alt="Frontend_Mentor_Single_Price_Grid_Component" />
+                            <div class="card__desc">
+                                <h3 class="card__desc--title">
+                                    Grid
+                                </h3>
+                                <div class="card__desc-prev">
+                                    <a href="https://github.com/Oyedolacode/Single-price-grid-component">️💻 Code</a>
+                                    <a href="http://single-price-grid-component.oyedolacode.vercel.app">👁️ Live </a>
+                                </div>
+                                <div class="card__desc--info">
+                                    <p>
+                                        Frontend_Mentor_Single_Price_Grid_Component
+                                    </p>
+                                </div>
+
+                                <div class="card__desc--tags">
+                                    <span>HTML & CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /end -->
+
+                    <div class="craft" data-tag="js">
+                        <div class="card">
+                            <img class="card__img" src="img/Screenshot_2021-01-02 Frontend Mentor Fylo landing page with two column layout.png" alt="Fylo landing_page" />
+                            <div class="card__desc">
+                                <h3 class="card__desc--title">
+                                    Two column layout
+                                </h3>
+                                <div class="card__desc-prev">
+                                    <a href="https://github.com/TutulDevs/All-JavaScript/tree/master/32-threader">️💻 Code</a>
+                                    <a href="https://all-js.netlify.app/32-threader">👁️ Live </a>
+                                </div>
+                                <div class="card__desc--info">
+                                    <p>
+                                        fylo landing_page
+                                    </p>
+                                </div>
+
+                                <div class="card__desc--tags">
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /end -->
+
+                    <div class="craft" data-tag="js">
+                        <div class="card">
+                            <img class="card__img" src="img/desktop-preview.jpg" alt="Landing Page" />
+                            <div class="card__desc">
+                                <h3 class="card__desc--title">
+                                    clip board landing_page
+                                </h3>
+                                <div class="card__desc-prev">
+                                    <a href="https://github.com/Oyedolacode/Clipboard-landing-page">️💻 Code</a>
+                                    <a href="https://clipboard-landing-page-git-main.oyedolacode.vercel.app/">👁️ Live </a>
+                                </div>
+                                <div class="card__desc--info">
+                                    <p>
+                                        Clip board landing_page
+                                    </p>
+                                </div>
+
+                                <div class="card__desc--tags">
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /end -->
+
+                    <div class="craft" data-tag="react">
+                        <div class="card">
+                            <img class="card__img" src="img/err.png" alt="Reactjs" />
+                            <div class="card__desc">
+                                <h3 class="card__desc--title">
+                                    Not available
+                                </h3>
+                                <div class="card__desc-prev">
+                                    <a href="#crafts">️💻 Code</a>
+                                    <a href="#crafts">👁️ Live </a>
+                                </div>
+                                <div class="card__desc--info">
+                                    <p>
+                                        No Reactjs projects yet. I'm currently learning it.
+                                    </p>
+                                </div>
+
+                                <div class="card__desc--tags">
+                                    <span>Reactjs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /end -->
+                </div>
+                <!-- Crafts content end -->
+
+                <!--<div class="crafts-more">
+                    <a href="https://LoveCSS.netlify.app">All Websites</a>
+                    <a href="https://all-js.netlify.app">50 JavaScript Apps</a>
+                </div>
+            -->
+ 
+            </div>
+        </section>
+
+        <section id="blogs" class="section">
+            <div class="section-header">
+                <h1 class="section-header-title">Blogs</h1>
+            </div>
+            <div class="container blogs">
+                <!--
+                                                                                                                        <div class="blogs-post">
+                                                                                                                            <p class="blogs-date">19 Nov 2020</p>
+                                                                                                                            <h2 class="blogs-title">How To Fix CSS Transtion on Gradient Backgrounds</h2>
+                                                                                                                            <a href="#" target="_blank" class="blogs-link">Read More</a>
+                                                                                                                        </div>
+                                                                                        -->
+            </div> 
+            <div class="blogs-more">
+                <h4>
+                    Follow me on <a href="https://tongueblastingcoder.hashnode.dev/">Hashnode</a> for more blog posts.
+                </h4>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section-header">
+                <h1 class="section-header-title">Contact</h1>
+            </div>
+            <div class="container contact">
+               <div class="form-box">
+                    <form class="form">
+                        <div class="form-inputs">
+                            <label for="name">Name <br />
+                                <input type="text" name="name" id="name" placeholder="John Doe" />
+                            </label>
+                            <label for="email">Email <br>
+                                <input type="email" name="email" id="email" placeholder="johndoe@mail.com" required />
+                            </label>
+                            <label for="message"> Message <br>
+                                <textarea name="message" id="message" placeholder="Type your message..."></textarea>
+                            </label>
+                        </div>
+                        <button type="submit" class="submit">Send</button>
+                    </form>
+                </div>
+                <div class="social">
+                    <h2 class="social-title">Let's talk.</h2>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/Oyedola" class="social-icon">
+                            <img src="./icons/twitter.svg" alt="Twitter" title="Twitter" class="social-img">
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                        <a href="https://github.com/oyedolacode" class="social-icon">
+                            <img src="./icons/github.svg" alt="GitHub" title="GitHub" class="social-img">
+                            <span class="sr-only">GitHub</span>
+                        </a>
+                        <a href="https://tongueblastingcoder.hashnode.dev/" class="social-icon">
+                            <img src="./icons/hashnode.svg" alt="Hashnode" title="Hashnode" class="social-img">
+                            <span class="sr-only">Hashnode</span>
+                        </a>
+                        <a href="https://codepen.io/oyedola-oluwasegun-olamide" class="social-icon">
+                            <img src="./icons/codepen.svg" alt="CodePen" title="CodePen" class="social-img">
+                            <span class="sr-only">CodePen</span>
+                        </a>
+                        <a href="https://codewars.com/users/Oyedola" class="social-icon">
+                            <img src="./icons/codewars.svg" alt="CodeWars" title="CodeWars" class="social-img">
+                            <span class="sr-only">CodeWars</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>
+                @Copyright <span class="year">2077</span>
+            </p>
+            <p>
+                Made with ❤️ by <a href="https://twitter.com/Oyedola">Oyedolacode</a> with these <a href="https://github.com/Oyedolacode/Portfolio/blob/master/Resources.md">Tools</a>.
+            </p>
+        </div>
+    </footer>
+
+    <a href="#" class="top">🎈</a>
+
+    <script src="list.js" type="text/javascript" charset="utf-8"></script>
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+    <script src="star.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

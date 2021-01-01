@@ -1,0 +1,47 @@
+.blogs {
+    min-height: 60vh;
+    display: grid;
+    gap: 1.5rem;
+    justify-content: center;
+    align-content: center;
+}
+.blogs-post {
+    padding: 0.5rem 0;
+}
+.blogs-date {
+    color: var(--green-dark);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.blogs-link {
+    background: var(--green-dark);
+    color: var(--white);
+    padding: 0.25rem 1.5rem;
+    display: inline-block;
+    transition: all var(--speed) ease-out;
+    font-weight: 400;
+    clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 50%, 0% 0%);
+}
+.blogs-link:hover {
+    padding-left: 2rem;
+    background: var(--green);
+    clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+
+
+.blogs-more {
+    width: 90%;
+    height: 20vh;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.blogs-more a {
+    color: var(--green-dark);
+    transition: color var(--speed) ease;
+}
+.blogs-more a:hover {
+    color: var(--green);
+}
