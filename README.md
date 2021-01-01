@@ -3,7 +3,7 @@
 
 This was Built with only HTML, CSS and vanilla JavaScript.
 
-[Live site](https://tutul.netlify.app)
+[Live site](https://oyedola-oluwasegun.netlify.app)
 
 See the [tools](Tools.md)
 
