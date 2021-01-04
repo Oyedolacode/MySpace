@@ -1,8 +1,8 @@
 #home {
-    background-image: url(../icons/code-icon.svg);
+    background-image: url(../img/image1-removebg-preview\(1\).png);
     background-repeat: no-repeat;
     background-position: 97% 95%;
-    background-size: 13rem, 100%;
+    background-size: 25rem, 100%;
 }
 .home {
     height: 85vh;
@@ -10,12 +10,6 @@
     justify-content: center;
     flex-direction: column;
 }
-.home__img{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 295px;
-  }
 .home .greeting ,
 .home h4 {
     padding-left: 0.5rem;
